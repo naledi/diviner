@@ -1,0 +1,42 @@
+body {
+ font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+}
+section {
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background: url(../img/sky.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#zodiacImgDisp {
+    display: inline-block;
+	text-align: center;
+	background: url(../img/sig/zodiac.png)no-repeat;
+	cursor:pointer;
+	margin:auto;
+    width: 450px;
+    height: 450px;
+    border: none;
+}
+
+#leftModal {
+    display: inline-block;
+    float:left;
+    margin-left: 10%;
+}
+
+#rightModal {
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+}

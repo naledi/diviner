@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///Users/diesel/Desktop/codify/week8/zodiac/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./index_files/main.css">
+</head>
+
+<body>
+	<header><h1>Diviner</h1></header>
+
+	<section>
+	<p>Suprisingly accurate astrological readings</p>
+	<input placeholder="Enter starsign here" id="starSign">
+	
+	<button id="zodiacButton" onclick="getInfo()">Click Here</button>
+
+	<h2 id="zodiacDisplay"></h2>
+ 
+ <!-- Build your logo Modal -->
+            <div class="modal fade" id="leftModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="zodiacDisplay"></h4><p>Charrectaristics</p>
+                  </div>
+                  <div class="modal-body">
+                    <div id="zodiacDescriptionDisplay"></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End modal-->
+	
+	<div id="zodiacImgDisp"></div>
+	<!--img id="zodiacButton" src="img/sig/zodiac.png" onclick="getInfo()"-->
+	 
+	 <!-- Build your logo Modal2 -->
+            <div class="modal fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+					<div id="rightModal"></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!--End modal2-->
+	</section>
+
+	<footer></footer>
+
+<script src="./index_files/main.js"></script>
+
+</body></html>

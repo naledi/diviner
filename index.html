@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+  <!-- Java Script -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<header><h1>Diviner</h1></header>
+
+	<section>
+  	<p>Suprisingly accurate astrological readings</p>
+    <nav>
+  	<input placeholder="Enter starsign here" id="starSign"></input>
+
+  	<button id="zodiacButton" onclick="getInfo() "class="btn btn-primary btn-xl page-scroll"data-toggle="modal" data-target="#leftModal">Click Here</button>
+    </nav>
+  	
+   
+   <!-- Build your logo Modal -->
+    <div class="modal fade" id="leftModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <h4 id="titleLeftModal"></h4>
+          </div>
+          <div class="modal-body">
+            <div id="zodiacCharDisplay">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+              <!--End modal-->
+  	
+  	<div id="zodiacImgDisp"></div>
+  	<!--img id="zodiacButton" src="img/sig/zodiac.png" onclick="getInfo()"-->
+  	 
+  	<!-- Build your logo Modal2 -->
+    <div class="modal fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <h4 class="modal-title" id="titleRightModal"></h4>
+          </div>
+          <div class="modal-body">
+	       <div id="zodiacRepDisplay"></div>
+          </div>
+          <div class="modal-footer">
+            
+        </div>
+      </div>
+    </div>
+               <!--End modal2-->
+	</section>
+
+	<footer></footer>
+
+ 
+
+<script src="js/main.js"></script>
+</body>
+</html>
